@@ -1,0 +1,116 @@
+<!DOCTYPE html> 
+<html lang="en"> 
+<head> 
+<meta charset="UTF-8" /> 
+<title>DOM Manipulation Assignment</title> 
+<style> 
+body { 
+font-family: Arial, sans-serif; 
+background: #f4f4f4; 
+margin: 20px; 
+padding: 20px; 
+line-height: 1.6; 
+} 
+h2 { 
+color: #333; 
+border-bottom: 2px solid #ccc; 
+padding-bottom: 5px; 
+margin-top: 40px; 
+} 
+button { 
+margin-top: 5px; 
+padding: 5px 10px; 
+cursor: pointer; 
+border: none; 
+background-color: #007BFF; 
+color: white; 
+border-radius: 5px; 
+} 
+button:hover { 
+background-color: #0056b3; 
+} 
+.highlight { 
+background-color: yellow; 
+color: black; 
+font-weight: bold; 
+} 
+#styleBox { 
+width: 200px; 
+height: 100px; 
+background-color: lightgray; 
+text-align: center; 
+line-height: 100px; 
+margin: 10px 0; 
+transition: all 0.5s ease; 
+} 
+.dot { 
+width: 8px; 
+height: 8px; 
+background-color: red; 
+border-radius: 50%; 
+position: absolute; 
+} 
+#animationBox { 
+width: 100px; 
+height: 100px; 
+background-color: orange; 
+transition: transform 1s; 
+} 
+</style> 
+</head> 
+<body> 
+<h1>DOM Manipulation Assignment</h1> 
+<p><strong>Author:</strong> Sabin IZERE</p> 
+<p><strong>Topic:</strong> DOM Manipulation (Exercises 1–10)</p> 
+<!-- Exercise 1 --> 
+<h2>Exercise 1: Change Text Content</h2> 
+<p id="myText">Hello</p> 
+<button id="changeBtn">Change Text</button> 
+<!-- Exercise 2 --> 
+<h2>Exercise 2: Modify CSS Styles Dynamically</h2> 
+<div id="styleBox">Click me!</div> 
+<!-- Exercise 3 --> 
+<h2>Exercise 3: Add and Remove Classes</h2> 
+<p id="highlightText">Click button to highlight me.</p> 
+<button id="highlightBtn">Toggle Highlight</button> 
+<!-- Exercise 4 --> 
+<h2>Exercise 4: Create and Append Elements</h2> 
+<ul id="myList"></ul> 
+<button id="addItemBtn">Add Item</button> 
+<!-- Exercise 5 --> 
+<h2>Exercise 5: Remove Elements from the DOM</h2> 
+<ul id="deleteList"> 
+<li>Item 1 <button class="delBtn">Delete</button></li> 
+<li>Item 2 <button class="delBtn">Delete</button></li> 
+</ul> 
+<!-- Exercise 6 --> 
+<h2>Exercise 6: Handling Events</h2> 
+<p id="eventMsg">Hover or press a key!</p> 
+<!-- Exercise 7 --> 
+<h2>Exercise 7: DOM Traversal</h2> 
+<div id="parent"> 
+Parent 
+<div id="child">Child</div> 
+</div> 
+<button id="traverseBtn">Highlight Parent</button> 
+<!-- Exercise 8 --> 
+<h2>Exercise 8: Form Handling</h2> 
+<form id="userForm"> 
+<input type="text" id="name" placeholder="Enter name" required /> 
+<input type="number" id="age" placeholder="Enter age" required /> 
+<button type="submit">Submit</button> 
+</form> 
+<p id="formResult"></p> 
+<!-- Exercise 9 --> 
+<h2>Exercise 9: Fetch and Display Data</h2> 
+<button id="fetchBtn">Fetch Data</button> 
+<ul id="dataList"></ul> 
+<!-- Exercise 10 --> 
+<h2>Exercise 10: Simple Animations</h2> 
+<div id="animationBox"></div> 
+<button id="animateBtn">Animate Box</button> 
+<script src="dome1.js"> 
+
+  </script> 
+</body> 
+</html>
